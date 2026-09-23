@@ -68,7 +68,7 @@ export default function Home() {
 
   return (
     <div className="todo-container">
-      <h1 className="todo-title">Mis tareas</h1>
+      <h1 className="todo-title">Tareas</h1>
       <hr className="todo-divider" />
 
       <input
