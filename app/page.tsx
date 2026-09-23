@@ -87,7 +87,7 @@ export default function Home() {
       <p style={{ marginTop: "10px", fontSize: "14px", color: "#666" }}>
         {totalCount === 0
           ? "No hay tareas"
-          : `${completedCount} de ${totalCount} tareas completadas`}
+          : `${completedCount} de ${totalCount} actividades completadas`}
       </p>
 
       <ul className="todo-list">
