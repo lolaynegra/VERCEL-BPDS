@@ -16,7 +16,7 @@ jobs:
           node-version: 20
           cache: npm
 
-      - run: npm i
+      - run: npm ci
       - run: npm run build
 
       - name: Configurar SSH
