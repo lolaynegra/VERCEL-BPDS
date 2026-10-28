@@ -68,7 +68,7 @@ export default function Home() {
 
   return (
     <div className="todo-container">
-      <h1 className="todo-title">Mis tareas</h1>
+      <h1 className="todo-title">Mis tareas (desplegado con S3)</h1>
       <hr className="todo-divider" />
 
       <input
@@ -76,7 +76,7 @@ export default function Home() {
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
         onKeyDown={handleAddTask}
-        placeholder="Escribe una tarea y presiona Enter"
+        placeholder="Holii, Escribe una tarea y presiona Enter"
         className="todo-new-input"
       />
 
